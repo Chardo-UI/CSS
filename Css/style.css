@@ -9,6 +9,11 @@ a {
 	text-decoration: none;
 }
 
+. {
+	background: -webkit-linear-gradient(bottom, #2dbd6e, #a6f77b);
+  	background-repeat: no-repeat;
+}
+
 .Medsos {
 	padding: 5px 0;
 	background-color: green;
@@ -31,10 +36,6 @@ a {
 	clear:both;
 }
 
-header {
-
-}
-
 header h1 {
 	float: left;
 	padding: 15px 0;
@@ -50,12 +51,12 @@ header ul li {
 }
 
 header ul li a {
-	padding:25px 20px;
+	padding:25px 10px;
 	display: inline-block;
 }
 
 header ul li a:hover {
-	background-color: green;
+	background-color: yellowgreen;
 	color: white;
 }
 
@@ -73,34 +74,6 @@ header ul li a:hover {
 	align-items: center;
 }
 
-.gambar1{
-	align-items: center;
-	justify-content: center;
-}
-
-.gambar1 p {
-	font-size: 23px;
-	margin-top: 20px;
-
-}
-
-.gambar1 a{
-	color: blue;
-	margin-top: 25px;
-	font-size: 20px;
-}
-
-.gambar p{
-	color: #fff;
-	z-index: 2;
-	text-align: center;
-}
-
-.gambar h3 {
-	color: #14E5C6 ;
-	z-index: 1;
-	padding: 20px 26px;
-}
 
 .gambar:after {
 	content: '';
@@ -139,8 +112,17 @@ section h3 {
 .about p {
 	color: #666;
 	word-spacing: 2px;
-	line-height:25px;
+	line-height:30px;
 	text-align: center;
+}
+
+.about li {
+	color: #666;
+	word-spacing: 2px;
+	line-height: 30px;
+	text-align: left;
+	align-self: center;
+	align-content: center;
 }
 
 .service {
@@ -200,6 +182,7 @@ footer {
 	background-color: black;
 	color:white;
 	text-align: center;
+	position: relative;
 }
 
 .bg-loader {
@@ -215,73 +198,11 @@ footer {
 	align-items: center;
 }
 
-.bg-loader .loader {
-	width:100px;
-	height: 100px;
-	border: 3px solid #fff;
-	border-radius: 50%;
-	border-top-color: green;
-	border-right-color: green;
-	border-bottom-color: green;
-	animation: puter .8s linear infinite;
-}
 
 .label {
 	background-color: green;
 	color:white;
+	margin-top: 10px;
 	padding-bottom: 15px;
 	padding-top: 15px;
-}
-
-.btn button {
-	font-size: 20px;
-	margin: 40px auto;
-}
-
-.b {
-	color: green;
-	margin-bottom: 20px;
-	margin-top: 20px;
-}
-
-.bag {
-	color: green;
-	margin: 25px;
-	font-size: 20px;
-}
-
-.jml {
-	color: green;
-	margin: 10px;
-	font-size: 20px
-}
-
-.label1 {
-	background-color: green;
-	color:white;
-	padding: 5px 5px;
-	margin-right: 550px;
-}
-
-.button-flat-outline {
-	border: 1px solid #801515;
-	background-color: transparent;
-	color: #801515;
-	font-size: 15px;
-	padding: 0.5em 1em 0.5em 1em;
-}
-
-.button-flat-outline:hover {
-	opacity: 0.8;
-}
-
-.button-flat-outline:active {
-	background: #550000; 
-	color: #FFFFFF;   
-}
-
-@keyframes puter{
-	100% {
-		transform: rotate(360deg);
-	}
 }
